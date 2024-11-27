@@ -9,7 +9,7 @@ An interactive Tic Tac Toe game that can be played in a web browser. Players tak
 
 ## Planned Features
 
-- Easy, Medium, and Difficult 
+- Player vs AI gameplay with easy, medium, and difficult settings
 - Dynamic board updates
 - Reset game functionality
 - Responsive web interface
