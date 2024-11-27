@@ -1,0 +1,83 @@
+Coding Languages: Python, HTML, CSS, JavaScript
+
+Features
+- player vs player
+- player vs AI
+- AI vs AI
+- difficulty levels
+- ??? networking capability
+- graphical interface
+    - menu
+        - select player 1: player, AI
+        - select player 2: player, AI
+        - AI difficulty: when selecting AI a combobox appears for the selection
+            - easy, medium, hard
+            - based on alphabeta prunning OR some other tictactoe decision making algorithm
+    - the Game
+        - a navigation bar
+            - will be in the center bottom of the screen since there is not much on it
+            - back to main menu button
+                - prompts a message "if you quit now the game will be lost"
+            - change difficulty combobox
+        - the game space
+            - 3x3 cells
+            - Xs and Os
+        - Winner message
+            - "Player X has won!"
+            - "new game" button
+            - "return to menu" button
+
+
+Seperate Concerns
+- AI
+- game logic
+- user interface
+
+State Management
+
+Input Validation
+
+
+Game logic
+- class: TicTacToe
+    - manage the game state (board, players, turns)
+    - validate moves
+    - check for the win condition or a draw
+    - handle the game flow (player turns, end conditions)
+
+    Attributes
+        - board
+        - current_player
+        - game_status
+    
+    Methods
+        - __init__
+        - display_board()
+        - make_move()
+        - validate_move()
+        - check_winner()
+        - check_draw()
+        - switch_turns()
+        - play_game()
+
+
+User Interface
+- have a menu for selecting, PvP or PvAI, and the size of the board
+- player input: allows players to click on a square to make a move
+- game state: show whose turn it is, if someone has won, or if its a draw
+- a reset functionality: a button to reset the game
+- compatability: works with desktop and mobile
+
+- Menu Page/section
+    - Game title
+    - player or AI select
+    - AI difficulty select
+    - dimensions select
+
+- Game Page/section
+    - shows a 3x3 clickable grid
+    - shows whose turn it is
+    - status message of winner (X or O) or draw
+    - button to reset the game
+    
+
