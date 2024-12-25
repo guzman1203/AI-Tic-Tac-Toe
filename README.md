@@ -1,6 +1,7 @@
 # Tic Tac Toe
 
-An interactive Tic Tac Toe game that can be played in a web browser. Players take turns marking cells in a grid, aiming to get a straight to win.
+An interactive Tic Tac Toe game that can be played in a web browser. 
+Players take turns marking cells in a grid, aiming to get a straight to win.
 
 ## Features
 
